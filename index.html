@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Dólar($) / Real(R$)</h1>
+        <div>
+            <label for="amount"><strong>Quantidade:</strong></label>
+            <input type="number" id="amount" placeholder="Digite o valor" />
+        </div><br>
+        <div>
+            <div class="radio-container">
+                <input type="radio" id="usd" name="currency" value="USD" checked />
+                <label for="usd">Dólar para Real</label>
+            </div>
+            <div class="radio-container">
+                <input type="radio" id="brl" name="currency" value="BRL" />
+                <label for="brl">Real para Dólar</label>
+            </div><br>
+        </div>
+        <button id="convert">Converter</button>
+        <h2 id="result"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

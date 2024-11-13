@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: #094e009c;
+}
+
+.container {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(62, 91, 252, 0.329);
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+}
+#currency{
+    margin: 5px;
+}
+#convert{
+    margin: 5px;
+    background-color: rgba(17, 255, 0, 0.21);
+    color: rgb(4, 87, 4);
+}
